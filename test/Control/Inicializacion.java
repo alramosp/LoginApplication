@@ -25,17 +25,12 @@ public class Inicializacion {
         UsuarioDAO dao = new UsuarioDAO();
     
         ArrayList<Usuario> usuarios = new ArrayList<Usuario>();
-        /*
-        * Creamos los usarios 
-        */
+
         Usuario a = new Usuario ();
         Usuario b = new Usuario ();
         Usuario c = new Usuario ();
         
-        /*
-        * Proveemos nombres y contraseñas
-        */
-        
+
         a.setNombre("Juan");
         a.setPassword("1234");
         b.setNombre("pedro");
@@ -43,17 +38,10 @@ public class Inicializacion {
         c.setNombre("maria");
         c.setPassword("12345");
         
-        /*
-        * Agregamos al arreglo
-        */
-        
         usuarios.add(a);
         usuarios.add(b);
         usuarios.add(c);
         
-        /*
-        * Le asignamos el arreglo usaurios a la varible de clase "sistema"
-        */
         
         //sistema.setUsuarios(usuarios);
         
